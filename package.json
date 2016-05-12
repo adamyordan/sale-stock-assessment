@@ -1,0 +1,29 @@
+{
+  "name": "sale-stock-assessment",
+  "version": "1.0.0",
+  "description": "Product Shopping cart API for Sale Stock Backend Technical Assessmet",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/genturwt/sale-stock-assessment.git"
+  },
+  "author": "Gentur Waskito Triwinasis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/genturwt/sale-stock-assessment/issues"
+  },
+  "homepage": "https://gitlab.com/genturwt/sale-stock-assessment#README",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.16",
+    "mongoose-fakery": "^0.1.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
