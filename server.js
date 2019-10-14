@@ -1,7 +1,7 @@
 var http = require('http');
 var mongoose = require('mongoose');
 
-var app = require('./app/');
+var app = require('./app');
 
 function start() {
   app.set('port', 3000);
